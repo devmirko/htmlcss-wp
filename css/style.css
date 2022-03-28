@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+   box-sizing: border-box;
+}
+
+/* clearfix */
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* stile della struttura della pagina */
+
+body{
+    background-color: white;
+
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    /* debugger */
+    margin-top: 20px;
+    
+        
+}
+
+/* stile della testata  */
+
+header{
+    height: 200px;
+     /* debugger */
+    background-color: pink;
+}
+
+/* stile del contenuto  */
+
+/* prima sezione */
+
+.box_content_1{
+     /* debugger */
+     background-color: yellow;
+     height: 800px;
+     margin: 10px 0;
+
+}
+
+/* seconda sezione */
+
+.box_content_2{
+    /* debugger */
+    background-color: cyan;
+    height: 1000px;
+    margin: 10px 0;
+
+}
+.row_head{
+    /* debugger */
+    height: 200px;
+}
+.row{
+    /* debugger */
+    height: 800px;
+}
+
+.col-six{
+    width: 20%;
+    float: left;
+     /* debugger */
+     height: 100%;
+     border-right: 4px solid blue;
+     border-top: 4px solid blue;
+
+}
+.col-center{
+    width: 60%;
+    float: left;
+    /* debugger */
+    height: 100%;
+    border-top: 4px solid blue;
+
+}
+.col-dex{
+    width: 20%;
+    float: left;
+     /* debugger */
+    height: 100%;
+    border-left: 4px solid blue;
+    border-top: 4px solid blue;
+   
+}
+
+/* stile del header */
+
+footer{
+     /* debugger */
+    background-color: blueviolet;
+    height: 200px;
+}
+
+
