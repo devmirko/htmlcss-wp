@@ -1,3 +1,5 @@
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -11,10 +13,14 @@
     clear: both;
 }
 
+/* opacità immagine */
+
+
 /* stile della struttura della pagina */
 
 body{
     background-color: white;
+    font-family: Montserrat, sans serif ;
 
 }
 
@@ -81,12 +87,18 @@ nav ul li a{
    
 }
 
+
+
 .banner_text{
     font-size: 24px;
     color: white;
     position: absolute;
     bottom: 50px;
     left: 20px;
+
+}
+
+.banner_title{
 
 }
 
@@ -99,48 +111,119 @@ nav ul li a{
     margin: 10px 0;
 
 }
+
+/* stile testata seconda sezione */
 .row_head{
     /* debugger */
-    height: 200px;
+    margin: 20px 0;
 }
+
+.box_content_2 .row_head h1{
+    color: black;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.box_content_2 .row_head span{
+    color: #ccc;
+
+}
+
+/* stile corpo seconda sezione */
+
 .row{
     /* debugger */
     height: 800px;
 }
 
+/* stile colonna sinistra */
+
 .col-six{
     width: 20%;
     float: left;
-     /* debugger */
-     height: 100%;
-     border-right: 4px solid blue;
-     border-top: 4px solid blue;
+    padding: 0 20px;
+     
 
 }
+
+.row .col-six img{
+    width: 100%;
+    height: 300px;
+    margin-bottom: 10px;
+   border-radius: 10px;
+}
+
+.row .col-six .row_title{
+    margin-bottom: 10px;
+    color: #ccc;
+}
+
+.row .col-six .row_text{
+    color: #ccc;
+
+}
+
+
+/* stile colonna centrale */
+
 .col-center{
     width: 60%;
     float: left;
-    /* debugger */
-    height: 100%;
-    border-top: 4px solid blue;
+    padding: 0 20px;
+}
+
+.row .col-center img{
+    width: 100%;
+    height: 300px;
+    margin-bottom: 10px;
+   border-radius: 10px;
+}
+
+.row .col-center .row_title{
+    margin-bottom: 10px;
+    color: #ccc;
+}
+
+.row .col-center .row_text{
+    color: #ccc;
 
 }
+
+/* stile colonna destra */
+
 .col-dex{
     width: 20%;
     float: left;
-     /* debugger */
-    height: 100%;
-    border-left: 4px solid blue;
-    border-top: 4px solid blue;
-   
+    padding: 0 20px;
+    
+     
 }
+.col-dex img{
+    width: 100%;
+    height: 300px;
+    margin-bottom: 10px;
+   border-radius: 10px;
+}
+
+.col-dex .row_title{
+    margin-bottom: 10px;
+    color: #ccc;
+}
+.row .col-dex .row_text{
+    color: #ccc;
+
+}
+
 
 /* stile del header */
 
 footer{
-     /* debugger */
-    background-color: blueviolet;
-    height: 200px;
+   text-align: center;
+}
+
+footer  .heart{
+    font-size: 30px;
+    color: red;
 }
 
 
