@@ -21,7 +21,6 @@ body{
 .container{
     width: 80%;
     margin: 0 auto;
-    /* debugger */
     margin-top: 20px;
     
         
@@ -30,10 +29,31 @@ body{
 /* stile della testata  */
 
 header{
-    height: 200px;
-     /* debugger */
-    background-color: pink;
+    height: 160px;
+   
 }
+
+#logo{
+    height: 100px;
+    border-right: 1px solid  #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+nav ul li{
+    display: inline;
+    
+    
+}
+
+nav ul li a{
+    color: #ccc;
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+
+}
+
 
 /* stile del contenuto  */
 
