@@ -87,7 +87,15 @@ nav ul li a{
    
 }
 
-
+.box_content_1 .ombra_immagine{
+    width: 100%;
+    height: 800px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.20);
+    border-radius: 30px;
+}
 
 .banner_text{
     font-size: 24px;
@@ -105,17 +113,14 @@ nav ul li a{
 /* seconda sezione */
 
 .box_content_2{
-    /* debugger */
-    background-color: cyan;
-    height: 1000px;
-    margin: 10px 0;
+    margin: 50px 0;
 
 }
 
 /* stile testata seconda sezione */
 .row_head{
-    /* debugger */
-    margin: 20px 0;
+    margin-bottom: 30px;
+    padding: 0 20px;
 }
 
 .box_content_2 .row_head h1{
@@ -131,10 +136,7 @@ nav ul li a{
 
 /* stile corpo seconda sezione */
 
-.row{
-    /* debugger */
-    height: 800px;
-}
+
 
 /* stile colonna sinistra */
 
@@ -142,20 +144,38 @@ nav ul li a{
     width: 20%;
     float: left;
     padding: 0 20px;
+   
      
 
+}
+.image_container{
+    position: relative;
 }
 
 .row .col-six img{
     width: 100%;
     height: 300px;
     margin-bottom: 10px;
-   border-radius: 10px;
+   border-radius: 30px;
 }
+
+
 
 .row .col-six .row_title{
     margin-bottom: 10px;
     color: #ccc;
+}
+
+.row .col-six .ombra_immagine{
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.20);
+    border-radius: 30px;
+   
+    
 }
 
 .row .col-six .row_text{
@@ -170,13 +190,26 @@ nav ul li a{
     width: 60%;
     float: left;
     padding: 0 20px;
+    position: relative;
 }
 
 .row .col-center img{
     width: 100%;
     height: 300px;
     margin-bottom: 10px;
-   border-radius: 10px;
+   border-radius: 30px;
+}
+
+.row .col-center .ombra_immagine{
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.20);
+    border-radius: 30px;
+   
+    
 }
 
 .row .col-center .row_title{
@@ -202,7 +235,19 @@ nav ul li a{
     width: 100%;
     height: 300px;
     margin-bottom: 10px;
-   border-radius: 10px;
+   border-radius: 30px;
+}
+
+.row .col-dex .ombra_immagine{
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.20);
+    border-radius: 30px;
+   
+    
 }
 
 .col-dex .row_title{
